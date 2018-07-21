@@ -11,6 +11,6 @@ The API consists of two functions:
     struct ADFPattern parseADFPattern(const char* data, int len)
   This function returns a large struct whose members have all of the properties stored in an .adf file.
   
-    void freeADFPattern freeADFPattern(ADFPattern pattern)
+    void freeADFPattern(struct ADFPattern pattern)
   This function frees a couple of allocated variable length strings within the struct.
  
