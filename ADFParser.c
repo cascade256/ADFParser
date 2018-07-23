@@ -348,7 +348,3 @@ void freeADFPattern(struct ADFPattern pattern) {
         free(pattern.description);
     }
 }
-
-int main() {
-    return 0;
-}
